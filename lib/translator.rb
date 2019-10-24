@@ -9,7 +9,7 @@ def load_library(file_path)
   end
   
   emoticons.each do |emoticon|
-    hash[:get_emoticon][emoticon[1][0]] = emoticon[1]
+    hash[:get_emoticon][emoticon[1][0]] = emoticon[1][1]
   end
   
   pp hash
