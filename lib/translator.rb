@@ -12,12 +12,11 @@ def load_library(file_path)
     hash[:get_emoticon][emoticon[1][0]] = emoticon[1][1]
   end
   
-  pp hash
   return hash
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  
+  hash = load_library('emoticons.yml')
 end
 
 def get_english_meaning
