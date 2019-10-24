@@ -8,7 +8,7 @@ def load_library(file_path)
     hash[:get_meaning][emoticon] = emoticon[1]
   end
   
-  pp emoticons
+  pp hash
   return hash
 end
 
