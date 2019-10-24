@@ -18,7 +18,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   hash = load_library(file_path)
   
-  hash.each do |item|
+  hash[:get_emoticon].each do |item|
     puts item
   end
   
